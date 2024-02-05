@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "bbva-username-input",
+    "version": "1.0",
+  
+    "description": "Changes input type from password to username.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.bbva.com.ar/*"],
+        "js": ["main.js"]
+      }
+    ]
+  }
+  
